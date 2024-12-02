@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /404.html
 
-Sitemap: https://www.anaadv.com/sitemap.xml
+Sitemap: /sitemap.xml
