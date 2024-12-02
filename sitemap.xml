@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Páginas principais -->
+  <url>
+    <loc>https://www.anaadv.com/index.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>1.00</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.anaadv.com/quem-somos.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- Páginas de Serviços -->
+  <url>
+    <loc>https://www.anaadv.com/servicos/contratos.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos/direito-concorrencial-e-regulatorio.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos/direito-empresarial.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos/gestao-de-cobrancas.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos/integridade-e-investigacao.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos/licenciamento.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos/mercado-de-criptoativos-e-blockchain.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos/protecao-de-dados-e-adequacao-a-lgpd.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos/recuperacao-tributaria.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos/sucessorio-e-imobiliario.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.anaadv.com/servicos/tecnologia-e-direito-digital.html</loc>
+    <lastmod>2024-12-02</lastmod>
+    <priority>0.64</priority>
+  </url>
+  
+</urlset>
