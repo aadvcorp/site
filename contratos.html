@@ -7,6 +7,9 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contratos - Ana Paula Camargo Advocacia Empresarial</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MRZ4MJDR');</script>
     <meta
       name="description"
       content="Ana Paula Camargo Advocacia oferece serviços especializados na elaboração, revisão e gestão de contratos, incluindo contratos comerciais, empresariais, imobiliários, de serviços e licitações. Conte com nossa experiência para garantir a segurança jurídica de suas relações contratuais."
@@ -17,25 +20,24 @@
     />
     <meta
       property="og:title"
-      content="Contratos - Ana Paula Camargo Advocacia Especializada"
+      content="Contratos - Ana Paula Camargo Advocacia Empresarial"
     />
     <meta
       property="og:description"
       content="Oferecemos serviços especializados na elaboração, revisão e gestão de contratos comerciais, empresariais, imobiliários, de serviços, e contratos públicos, com foco em garantir a segurança jurídica de todas as partes envolvidas."
     />
-    <meta property="og:image" content="images/logo_anaadv_branco.svg" />
+    <meta property="og:image" content="images/og-image.webp" />
     <meta property="og:url" content="https://www.anaadv.com/contratos.html" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="Contratos - Ana Paula Camargo Advocacia Especializada"
+      content="Contratos - Ana Paula Camargo Advocacia Empresarial"
     />
     <meta
       name="twitter:description"
       content="Somos especializados em elaboração, revisão e gestão de contratos, oferecendo soluções jurídicas estratégicas para empresas e indivíduos em diversas áreas."
     />
     <meta name="twitter:image" content="images/logo_anaadv_branco.svg" />
-    <title>Contratos - Ana Paula Camargo Advocacia Especializada</title>
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript>
       <link rel="stylesheet" href="assets/css/noscript.css" />
@@ -81,11 +83,13 @@
 
 
   <body class="is-preload">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRZ4MJDR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Wrapper -->
     <div id="wrapper">
       <!-- Header -->
       <header id="header">
-        <a href="index.html" class="logo">Ana Paula Camargo Advocacia Especializada</a>
+        <a href="index.html" class="logo">Ana Paula Camargo Advocacia Empresarial</a>
       </header>
 
       <!-- Nav -->
@@ -99,7 +103,13 @@
         </ul>
         <ul class="icons">
           <li>
-            <a href="https://wa.me/5549989037724" class="icon brands fa-whatsapp" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5549989037724" class="icon brands fa-whatsapp" target="_blank" rel="noopener noreferrer"
+            onclick="dataLayer.push({
+              'event': 'whatsapp_click',
+              'eventCategory': 'CTA',
+              'eventAction': 'click',
+              'eventLabel': 'WhatsApp ' + document.title
+              });">
               <span class="label">WhatsApp</span>
             </a>
           </li>
@@ -173,9 +183,14 @@
               style="
                   padding: 15px 25px;
                   color: white;
-                  background-color: #25D366;
-              "
-          >
+                  background-color: #25D366;"
+              onclick="dataLayer.push({
+                'event': 'whatsapp_click',
+                'eventCategory': 'CTA',
+                'eventAction': 'click',
+                'eventLabel': 'WhatsApp ' + document.title
+                });">
+            
               <b style="color: white;">Contato WhatsApp</b>
           </a>
         </section>
@@ -203,8 +218,8 @@
       <!-- Footer -->
       <footer id="footer">
         <section style="text-align: center;">
-          <img src="images/logo_anaadv_marinho.svg" alt="Logo Azul Marinho da Ana Paula Camargo Advocacia Especializada Utilizada no Rodapé"/>
-          <p><b>&copy; Ana Paula Camargo Advocacia Especializada</b><br />
+          <img src="images/logo_anaadv_marinho.svg" alt="Logo Azul Marinho da Ana Paula Camargo Advocacia Empresarial Utilizada no Rodapé"/>
+          <p><b>&copy; Ana Paula Camargo Advocacia Empresarial</b><br />
           <i>
             Desenvolvimento: <a href="https://resoluts.com" target="_blank" rel="noopener noreferrer">Resoluts Software</a>
           </i></p>
@@ -214,6 +229,14 @@
     </div>
     
     <!-- Scripts -->
-    <script src="assets/js/newsletter.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/addons.js" defer></script>
+    
   </body>
 </html>
